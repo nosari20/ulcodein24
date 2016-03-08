@@ -1,0 +1,143 @@
+body{
+    background-color: #3c3c3c;
+}
+.navbar{
+    z-index: 100;
+    margin-bottom: 0;
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.navbar .dropdown-menu {
+    margin-top: 0;
+}
+
+@media screen and (max-width: 758px) {
+    .collapse{
+        display: block !important;
+        overflow: hidden;
+        z-index: 10;
+        max-height: 0px;
+
+        -moz-transition: max-height 0.5s ease-in;
+        -ms-transition: max-height 0.5s ease-in;
+        -o-transition: max-height 0.5s ease-in;
+        -webkit-transition: max-height 0.5s ease-in;
+        transition: max-height 0.5s ease-in;
+
+
+
+    }
+    .collapse-open{
+        max-height: 200px;
+    }
+
+}
+.navbar-nav.disabled a{
+    pointer-events: none;
+}
+.navbar-nav > li{
+    width: 6em;
+    height: 50px;
+    text-align: center;
+
+}
+.navbar-nav > li.active a{
+   background:transparent !important;
+    box-shadow: none !important;
+}
+.navbar-nav > li:last-child {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.2);
+    transition: transform .3s;
+}
+@media screen and (max-width: 758px) {
+    .navbar-nav > li:last-child {
+       display: none;
+    }
+}
+
+.navbar-nav  li:nth-child(2).active ~ li:last-child {
+    transform:translateX(6em);
+}
+.navbar-nav  li:nth-child(3).active ~ li:last-child {
+    transform:translateX(12em) !important;
+}
+.navbar-nav  li:nth-child(4).active ~ li:last-child {
+    transform:translateX(18em) !important;
+}
+.navbar-nav  li:nth-child(5).active ~ li:last-child {
+    transform:translateX(24em) !important;
+}
+
+
+
+.page {
+    -webkit-animation: slideUp 2s,fadeIn 2s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: slideUp .2s,fadeIn 2s; /* Firefox < 16 */
+    -ms-animation: slideUp 2s,fadeIn 2s; /* Internet Explorer */
+    -o-animation: slideUp 2s,fadeIn 2s; /* Opera < 12.1 */
+    animation: slideUp 2s,fadeIn 2s;
+
+}
+
+/*transition*/
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadeIn {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadeIn {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadeIn {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadeIn {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+
+@keyframes slideUp {
+    from { transform: translateY(70px); }
+    to   { transform: translateY(0); }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes slideUp {
+    from { transform: translateY(70px); }
+    to   { transform: translateY(0); }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes slideUp {
+    from { transform: translateY(70px); }
+    to   { transform: translateY(0); }
+}
+
+/* Internet Explorer */
+@-ms-keyframes slideUp {
+    from { transform: translateY(70px); }
+    to   { transform: translateY(0); }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes slideUp {
+    from { transform: translateY(70px); }
+    to   { transform: translateY(0); }
+}
