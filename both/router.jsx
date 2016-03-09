@@ -2,28 +2,33 @@ FlowRouter.route("/", {
   name: "home",
   action() {
     ReactLayout.render(Layout, {
-      content: <Home />
+      content: Home,
+      current: "Home",
     });
   }
 });
 
 FlowRouter.route("/news", {
-  name: "home",
+  name: "News",
   action() {
     ReactLayout.render(Layout, {
-      content: <News />
+      content: News,
+      current: "News",
     });
   }
 });
 
 FlowRouter.route("/contact", {
-  name: "home",
+  name: "contact",
   action() {
     ReactLayout.render(Layout, {
-      content: <Contact />
+      content: Contact,
+      current: "Contact",
+
     });
   }
 });
+
 
 
 FlowRouter.route('/post/:_id', {

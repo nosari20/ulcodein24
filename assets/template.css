@@ -1,5 +1,5 @@
 body{
-    background-color: #3c3c3c;
+    background-color: #bebebe;
 }
 .navbar{
     z-index: 100;
@@ -71,14 +71,29 @@ body{
     transform:translateX(24em) !important;
 }
 
+.page.previous:not(.transitionOut){
+    display: none;
+}
 
+.transitionIn{
 
-.page {
     -webkit-animation: slideUp 2s,fadeIn 2s; /* Safari, Chrome and Opera > 12.1 */
-    -moz-animation: slideUp .2s,fadeIn 2s; /* Firefox < 16 */
+    -moz-animation: slideUp 2s,fadeIn 2s; /* Firefox < 16 */
     -ms-animation: slideUp 2s,fadeIn 2s; /* Internet Explorer */
     -o-animation: slideUp 2s,fadeIn 2s; /* Opera < 12.1 */
     animation: slideUp 2s,fadeIn 2s;
+
+
+
+}
+
+.transitionOut{
+
+    -webkit-animation: slideDown 2s,fadeOut 2s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: slideDown 2s,fadeOut 2s; /* Firefox < 16 */
+    -ms-animation: slideDown 2s,fadeOut 2s; /* Internet Explorer */
+    -o-animation: slideDown 2s,fadeOut 2s; /* Opera < 12.1 */
+    animation: slideDown 2s,fadeOut 2s;
 
 }
 
@@ -112,6 +127,36 @@ body{
     to   { opacity: 1; }
 }
 
+/*transition fadeOut*/
+@keyframes fadeOut {
+    from { opacity: 1; }
+    to   { opacity: 0; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadeOut {
+    from { opacity: 1; }
+    to   { opacity: 0; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadeOut {
+    from { opacity: 1; }
+    to   { opacity: 0; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadeOut {
+    from { opacity: 1; }
+    to   { opacity: 0; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadeOut {
+    from { opacity: 1; }
+    to   { opacity: 0; }
+}
+
 
 @keyframes slideUp {
     from { transform: translateY(70px); }
@@ -141,3 +186,35 @@ body{
     from { transform: translateY(70px); }
     to   { transform: translateY(0); }
 }
+
+
+@keyframes slideDown {
+    from { transform: translateY(-70px); }
+    to   { transform: translateY(0); }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes slideDown {
+    from { transform: translateY(-70px); }
+    to   { transform: translateY(0); }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes slideDown {
+    from { transform: translateY(-70px); }
+    to   { transform: translateY(0); }
+}
+
+/* Internet Explorer */
+@-ms-keyframes slideDown {
+    from { transform: translateY(-70px); }
+    to   { transform: translateY(0); }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes slideDown {
+    from { transform: translateY(-70px); }
+    to   { transform: translateY(0); }
+}
+
+

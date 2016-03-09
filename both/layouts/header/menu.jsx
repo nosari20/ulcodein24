@@ -1,30 +1,33 @@
-Menu=React.createClass({
+Menu = class Menu extends React.Component {
 
 
-    getInitialState: function(){
-        return {
-            items: [
-                {title: "Home", link: "/"},
+    constructor (props) {
+        super(props);
 
-                /*{title: "Pages", link: "#",
-                    submenu:{
-                        sub:[
-                            {title: "Home", link: "#"},
-                            {title: "Home", link: "#"},
-                        ]
-                    }},
-                */
+        this.state= {
 
-                {title: "Contact", link: "/contact"},
+        items : [
+            {title: "Home", link: "/"},
 
-                {title: "News", link: "/news"},
-            ],
-            active: "Home",
-            open:""
+            /*{title: "Pages", link: "#",
+             submenu:{
+             sub:[
+             {title: "Home", link: "#"},
+             {title: "Home", link: "#"},
+             ]
+             }},
+             */
+
+            {title: "Contact", link: "/contact"},
+
+            {title: "News", link: "/news"},
+        ],
+        active : props.current,
+        open : ""
         }
-
-    },
-    render: function(){
+        this.toggle = this.toggle.bind(this)
+    }
+    render(){
         return (
 
 
@@ -47,7 +50,7 @@ Menu=React.createClass({
                                 this.state.items.map(function(item,i) {
 
                                     return (
-                                        <MenuItem title={item.title} link={item.link}  submenu={item.submenu} onClick={this.update} key={i} active={(this.state.active == item.title) ? "active" : ""}/>
+                                        <MenuItem title={item.title} link={item.link}  submenu={item.submenu} click={this.update.bind(this)} key={i} active={(this.state.active == item.title) ? "active" : ""}/>
                                     );
 
                                 }.bind(this))
@@ -63,13 +66,13 @@ Menu=React.createClass({
 
 
         );
-    },
-    update:function(item){
+    }
+    update(item){
         this.setState({
             active:item
         });
-    },
-    toggle:function(){
+    }
+    toggle(){
         this.setState({
             open:(this.state.open == "") ? "collapse-open" : ""
         });
@@ -80,18 +83,19 @@ Menu=React.createClass({
 
 
 
-});
+}
 
 
-MenuItem=React.createClass({
+MenuItem = class MenuItem extends React.Component{
 
 
-    getInitialState: function(){
-        return {
-            subs: this.props.submenu,
-        }
-    },
-    render: function(){
+    constructor (props) {
+        super(props)
+        this.state={subs : props.submenu, click : props.click }
+        this.toggle = this.toggle.bind(this)
+    }
+
+    render(){
 
 
         if(!this.state.subs) {
@@ -106,7 +110,7 @@ MenuItem=React.createClass({
         }else{
 
             return (
-                <li onClick={this.toggle} className={this.props.active +' dropdown'}>
+                <li onClick={this.toggle.bind(this)} className={this.props.active +' dropdown'}>
 
                     <a href={this.props.link}>{this.props.title}</a>
 
@@ -126,9 +130,9 @@ MenuItem=React.createClass({
                 </li>
             );
         }
-    },
-    toggle:function(){
-        this.props.onClick(
+    }
+    toggle(){
+        this.state.click(
             this.props.title
         );
 
@@ -138,12 +142,16 @@ MenuItem=React.createClass({
 
 
 
-});
+}
 
 
-MenuItemSub=React.createClass({
+MenuItemSub = class MenuItemSub extends React.Component{
 
-    render: function(){
+    constructor (props) {
+        super(props)
+    }
+
+    render(){
         return (
             <li>
 
@@ -151,6 +159,6 @@ MenuItemSub=React.createClass({
 
             </li>
         );
-    },
+    }
 
-});
+}

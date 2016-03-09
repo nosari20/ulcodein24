@@ -1,11 +1,11 @@
-News = React.createClass({
-    render: function () {
+News = class News extends React.Component{
+    render() {
         return (
             <div className="page">
-                <div className="content">
+                <div className={"page "+this.props.animate}>
                     <h1>News</h1>
                 </div>
             </div>
         );
     }
-});
+};
