@@ -8,6 +8,10 @@ body{
     z-index: 100;
     margin-bottom: 0;
 }
+.navbar.disable-link a{
+    pointer-events: none !important;
+    cursor: default !important;
+}
 .dropdown:hover .dropdown-menu {
     display: block;
 }

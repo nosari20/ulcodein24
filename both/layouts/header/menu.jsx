@@ -28,10 +28,12 @@ Menu = class Menu extends React.Component {
         this.toggle = this.toggle.bind(this)
     }
     render(){
+
+        var linkeactive=(this.props.active == false) ? "disable-link" : "";
         return (
 
 
-            <nav className="navbar navbar-default">
+            <nav className={"navbar navbar-default "+linkeactive}>
                 <div className="container-fluid">
 
                     <div className="navbar-header">

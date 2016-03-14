@@ -45,7 +45,7 @@ Layout = class Layout extends React.Component{
         return(
 
             <div>
-                    <Menu current={this.props.current}/>
+                    <Menu current={this.props.current} active={!this.state.animating}/>
 
                     <this.props.content animate={(this.state.animating == true) ? "transitionIn" : ""}/>
                     <this.state.currentComp animate={"previous "+transOut}/>
