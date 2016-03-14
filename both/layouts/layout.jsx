@@ -21,7 +21,7 @@ Layout = class Layout extends React.Component{
 
 
 
-            setTimeout(this.transitionEndHandler,2000)
+            setTimeout(this.transitionEndHandler,1000)
 
             //pageEl.addEventListener('transitionend', function(){console.log('handled')})
             //pageEl.addEventListener('webkitTransitionEnd', this.transitionEndHandler)
@@ -45,10 +45,17 @@ Layout = class Layout extends React.Component{
         return(
 
             <div>
-              <Menu current={this.props.current}/>
+                    <Menu current={this.props.current}/>
 
                     <this.props.content animate={(this.state.animating == true) ? "transitionIn" : ""}/>
                     <this.state.currentComp animate={"previous "+transOut}/>
+
+
+
+                    <Footer/>
+
+
+
 
 
             </div>

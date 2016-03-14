@@ -5,15 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="460fba72-bdcb-4193-913a-ae6267ca1d5c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/meteor_packages_auto_import_browser.xml" afterPath="$PROJECT_DIR$/.idea/libraries/meteor_packages_auto_import_browser.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/both/layouts/footer/footer.jsx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/template.css" afterPath="$PROJECT_DIR$/assets/template.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/both/components/contact.jsx" afterPath="$PROJECT_DIR$/both/components/contact.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/both/components/home.jsx" afterPath="$PROJECT_DIR$/both/components/home.jsx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/both/components/news.jsx" afterPath="$PROJECT_DIR$/both/components/news.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/both/layouts/header/menu.jsx" afterPath="$PROJECT_DIR$/both/layouts/header/menu.jsx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/both/layouts/layout.jsx" afterPath="$PROJECT_DIR$/both/layouts/layout.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/both/router.jsx" afterPath="$PROJECT_DIR$/both/router.jsx" />
     </list>
     <ignored path="hello-react-meteor-master.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,7 +34,17 @@
         <entry file="file://$PROJECT_DIR$/both/layouts/layout.jsx">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+              <caret line="54" column="28" selection-start-line="54" selection-start-column="28" selection-end-line="54" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="footer.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/both/layouts/footer/footer.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -48,7 +54,7 @@
         <entry file="file://$PROJECT_DIR$/both/components/home.jsx">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -58,7 +64,7 @@
         <entry file="file://$PROJECT_DIR$/both/components/contact.jsx">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+              <caret line="7" column="18" selection-start-line="3" selection-start-column="11" selection-end-line="7" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -68,7 +74,7 @@
         <entry file="file://$PROJECT_DIR$/both/components/news.jsx">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+              <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -84,20 +90,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="template.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="template.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/template.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="38.115383">
-              <caret line="105" column="18" selection-start-line="105" selection-start-column="18" selection-end-line="105" selection-end-column="18" />
+            <state vertical-scroll-proportion="0.30807248">
+              <caret line="80" column="16" selection-start-line="80" selection-start-column="16" selection-end-line="80" selection-end-column="16" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="router.jsx" pinned="false" current-in-tab="true">
+      <file leaf-file-name="router.jsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/both/router.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.14026402">
+            <state vertical-scroll-proportion="0.0">
               <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
               <folding />
             </state>
@@ -130,10 +136,11 @@
         <option value="$PROJECT_DIR$/both/layouts/header/menu.jsx" />
         <option value="$PROJECT_DIR$/both/components/contact.jsx" />
         <option value="$PROJECT_DIR$/both/components/home.jsx" />
-        <option value="$PROJECT_DIR$/both/components/news.jsx" />
         <option value="$PROJECT_DIR$/both/router.jsx" />
-        <option value="$PROJECT_DIR$/assets/template.css" />
+        <option value="$PROJECT_DIR$/both/components/news.jsx" />
+        <option value="$PROJECT_DIR$/both/layouts/footer/footer.jsx" />
         <option value="$PROJECT_DIR$/both/layouts/layout.jsx" />
+        <option value="$PROJECT_DIR$/assets/template.css" />
       </list>
     </option>
   </component>
@@ -172,6 +179,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -259,6 +267,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="layouts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="footer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hello-react-meteor-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hello-react-meteor-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="both" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="components" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -279,11 +309,10 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="A:/wamp/www/react-flux-slim" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.meteor.project" value="true" />
     <property name="js.meteor.library.was.enabled" value="true" />
@@ -291,6 +320,9 @@
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ACH02\Desktop\hello-react-meteor-master\both\layouts\footer" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\ACH02\Desktop\hello-react-meteor-master\both\components" />
       <recent name="C:\Users\ACH02\Desktop\hello-react-meteor-master\both\layouts\header" />
@@ -335,7 +367,7 @@
       <method />
     </configuration>
     <configuration default="true" type="meteor-app-runner" factoryName="Meteor">
-      <option name="exePath" value="C:\Users\ACH02\AppData\Local\.meteor\meteor.bat" />
+      <option name="exePath" value="$USER_HOME$/AppData/Local/.meteor/meteor.bat" />
       <option name="startBrowserSettings">
         <browser url="http://localhost:3000" />
       </option>
@@ -386,13 +418,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1934" height="1057" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24973932" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30200633" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30200633" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -434,6 +466,62 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/both/layouts/layout.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/both/components/home.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/both/components/contact.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/both/components/news.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/both/layouts/header/menu.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="27" column="33" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/template.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="105" column="18" selection-start-line="105" selection-start-column="18" selection-end-line="105" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/both/router.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/both/layouts/layout.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -501,7 +589,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.092491835">
           <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -509,7 +596,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.110990204">
           <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -536,10 +622,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/both/components/news.jsx">
+    <entry file="file://$PROJECT_DIR$/both/components/home.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/both/router.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
           <folding />
         </state>
       </provider>
@@ -547,15 +641,15 @@
     <entry file="file://$PROJECT_DIR$/both/components/contact.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+          <caret line="7" column="18" selection-start-line="3" selection-start-column="11" selection-end-line="7" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/both/components/home.jsx">
+    <entry file="file://$PROJECT_DIR$/both/components/news.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
           <folding />
         </state>
       </provider>
@@ -568,26 +662,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/template.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="38.115383">
-          <caret line="105" column="18" selection-start-line="105" selection-start-column="18" selection-end-line="105" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/both/layouts/layout.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <caret line="54" column="28" selection-start-line="54" selection-start-column="28" selection-end-line="54" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/both/router.jsx">
+    <entry file="file://$PROJECT_DIR$/both/layouts/footer/footer.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.14026402">
-          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/template.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.30807248">
+          <caret line="80" column="16" selection-start-line="80" selection-start-column="16" selection-end-line="80" selection-end-column="16" />
           <folding />
         </state>
       </provider>
