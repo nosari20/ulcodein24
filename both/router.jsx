@@ -12,7 +12,7 @@ FlowRouter.route("/news", {
   name: "News",
   action() {
     ReactLayout.render(Layout, {
-      content: News,
+      content: NewsList,
       current: "News",
     });
   }

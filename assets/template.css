@@ -8,7 +8,7 @@ body{
     z-index: 100;
     margin-bottom: 0;
 }
-.navbar.disable-link a{
+.navbar.disable-link a,.navbar.disable-link li{
     pointer-events: none !important;
     cursor: default !important;
 }
