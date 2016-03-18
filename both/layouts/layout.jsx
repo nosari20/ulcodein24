@@ -1,12 +1,12 @@
 TransitionGroup = React.addons.TransitionGroup ;
 
 Layout = class Layout extends React.Component{
+
     constructor (props) {
         super(props);
         this.state={current:this.props.current, animating:false, currentComp:this.props.content}
         this.transitionEndHandler = this.transitionEndHandler.bind(this)
     }
-
     componentDidUpdate() {
 
 

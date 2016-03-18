@@ -7,7 +7,7 @@ Menu = class Menu extends React.Component {
         this.state= {
 
         items : [
-            {title: "Home", link: "/"},
+            {title: "Map", link: "/"},
 
             /*{title: "Pages", link: "#",
              submenu:{
